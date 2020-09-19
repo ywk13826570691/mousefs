@@ -1,4 +1,12 @@
 # mousefs
+这是一个简单的linux文件系统叫他mosefs
+mousefs文件系统磁盘块是1024字节
+文件最大是10k，因为只使用了一级块
+编译后生成 drv.ko和msfs.ko
+安装此两个驱动后直接mount /dev/msfsblk0 /mnt
+会在/mnt目录下看到文件msfs.txt文件 ok
+仅供学习和理解linux文件系统和块设备驱动
+
 Linux Simple filesystem mousefs
 
 
